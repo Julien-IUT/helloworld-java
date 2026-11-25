@@ -20,6 +20,6 @@ jobs:
         with:
           java-version: '17'
           java-version-file: # optional
-          distribution: 'Temurin'
+          distribution: 'temurin'
       - name: Construction du package jar
         run: mvn clean package -DskipTests
